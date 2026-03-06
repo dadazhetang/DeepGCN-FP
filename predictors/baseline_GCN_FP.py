@@ -280,7 +280,7 @@ def main():
     X = X2
     y = joblib.load(os.path.join(PROJECT_ROOT,"FPs", dataset_name,"label0.joblib"))
     y = y.ravel()
-    BASE_DIR =  os.path.join(PROJECT_ROOT,"models_final_"+"mix_"+dataset_name)
+    BASE_DIR =  os.path.join(PROJECT_ROOT,"models_final_"+"gcn_fp_"+dataset_name)
     os.makedirs(BASE_DIR, exist_ok=True)
 
     default_results = train_default_models(X, y, BASE_DIR)
