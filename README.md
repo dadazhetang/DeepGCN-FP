@@ -18,7 +18,7 @@ All code was developed using Python 3.8
 
 # Usage and examples
 
-The code for transfer learning and predictors can be run by executing the following command
+The code for transfer learning , predictors , visualization ，importance analysiscan ，annotation can be run by executing the following command
 
 ```
 notebooks/pipline.ipynb
@@ -27,3 +27,4 @@ notebooks/pipline.ipynb
  in notebooks directory
 
  
+
